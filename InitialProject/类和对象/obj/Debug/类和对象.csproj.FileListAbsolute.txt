@@ -1,0 +1,6 @@
+C:\Code\StevenCode\InitialProject\类和对象\bin\Debug\类和对象.exe.config
+C:\Code\StevenCode\InitialProject\类和对象\bin\Debug\类和对象.exe
+C:\Code\StevenCode\InitialProject\类和对象\bin\Debug\类和对象.pdb
+C:\Code\StevenCode\InitialProject\类和对象\obj\Debug\类和对象.csprojResolveAssemblyReference.cache
+C:\Code\StevenCode\InitialProject\类和对象\obj\Debug\类和对象.exe
+C:\Code\StevenCode\InitialProject\类和对象\obj\Debug\类和对象.pdb

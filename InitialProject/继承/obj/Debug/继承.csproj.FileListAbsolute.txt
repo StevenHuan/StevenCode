@@ -1,0 +1,6 @@
+C:\Code\StevenCode\InitialProject\继承\obj\Debug\继承.csprojResolveAssemblyReference.cache
+C:\Code\StevenCode\InitialProject\继承\bin\Debug\继承.exe.config
+C:\Code\StevenCode\InitialProject\继承\bin\Debug\继承.exe
+C:\Code\StevenCode\InitialProject\继承\bin\Debug\继承.pdb
+C:\Code\StevenCode\InitialProject\继承\obj\Debug\继承.exe
+C:\Code\StevenCode\InitialProject\继承\obj\Debug\继承.pdb

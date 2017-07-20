@@ -1,0 +1,6 @@
+C:\Code\StevenCode\InitialProject\值类型和引用类型\bin\Debug\值类型和引用类型.exe.config
+C:\Code\StevenCode\InitialProject\值类型和引用类型\bin\Debug\值类型和引用类型.exe
+C:\Code\StevenCode\InitialProject\值类型和引用类型\bin\Debug\值类型和引用类型.pdb
+C:\Code\StevenCode\InitialProject\值类型和引用类型\obj\Debug\值类型和引用类型.csprojResolveAssemblyReference.cache
+C:\Code\StevenCode\InitialProject\值类型和引用类型\obj\Debug\值类型和引用类型.exe
+C:\Code\StevenCode\InitialProject\值类型和引用类型\obj\Debug\值类型和引用类型.pdb
