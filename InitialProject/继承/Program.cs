@@ -12,12 +12,18 @@ namespace 继承
         {
             
 
+      
             Program pr = new Program();
             //抽象方法abstract使用override重写
             b b = new 继承.b();
             b.run();
             b.sun();
-            //虚方法输出
+            c c = new 继承.c();
+            c.run();
+
+            Nevermore60Customer custmore = new Nevermore60Customer("鬼吹灯");
+            //new
+
             Console.WriteLine();
             Console.ReadLine();
         }
@@ -102,6 +108,7 @@ namespace 继承
     //抽象方法在抽象类中没有实体
     //抽象方法声明时：不能使用static或者virtual修饰
 
+    //声明一个基类函数为virtual后可以在任意派生类中重写该函数
     
     public abstract class A
     {
@@ -127,5 +134,93 @@ namespace 继承
      }
     #endregion
 
+    #region base和this关键字
+    //base用于在派生类中实现对基类共有或者受保护成员的访问，但是只局限在构造函数、示例方法和示例属性访问器中
+    //base具体功能：调用基类上已被其他方法重写的方法；指定创建派生类实例时应调用的基类构造函数
 
+    //this关键字，用于引用类的当前实例，也包括继承而来的方法，
+    //this具体功能：
+    //限定被相似的名称隐藏的成员
+    //将对象作为参数传递到其他烦烦烦
+    //声明索引器
+    #endregion
+
+    #region 密封类和密封方法 关键字sealed
+    //使用sealed关键字表示该类或该方法不能被重写
+    //应用情形：商业原因防止被人重写
+
+    public class c : A
+    {
+        public sealed override void run()
+        {
+            Console.WriteLine("使用密封方法重写抽象方法");
+        }
+    }
+
+    //报错不能重写
+    //public class d : c
+    //{
+    //    public override void run()
+    //    { 
+    //         Console.WriteLine("能重写吗？");
+    //    }
+    //}
+    #endregion
+
+    #region 派生类 base和this
+    //base表示派生类中实现对基类公有或者受保护成员的访问，但是只局限在构造函数、实例方法和示例属性访问器中
+    //作用:调用基类上已被其他方法重写的方法
+    //指定创建派生类实例时应调用的基类构造函数
+
+    //this关键字：用于引用类的当前实例，也包括继承而来的方法
+    //作用：限定被相似的名称影藏的成员
+    //将对象作为参数传递到其他方法
+    //声明索引器
+    public abstract class GenericCustomer
+    {
+        private string name;
+        public GenericCustomer(string name) {
+            this.name = name;
+        }
+    }
+
+    public class Nevermore60Customer : GenericCustomer
+    {
+        private uint highCostMinutesUsed;
+        public Nevermore60Customer(string name)
+            : base(name)
+        { 
+            
+        }
+    }
+    #endregion
+
+    #region 接口
+    public interface ISomeClass
+    {
+        //类
+        bool ShowName();
+
+        //字段
+        decimal Balance { get; }
+    }
+
+    public class SomeN : ISomeClass
+    {
+        //实现类
+        public bool ShowName() {
+            return true;
+        }
+
+        //实现字段
+        private decimal balance;
+
+        public decimal Balance
+        {
+            get { return balance; }
+        }
+    }
+
+
+    #endregion
 }

@@ -7,6 +7,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "类和对象", "类和对�
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "继承", "继承\继承.csproj", "{E7AF3208-C576-4CF1-B517-0249CE01C1A4}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "序列化和反序列化", "序列化和反序列化\序列化和反序列化.csproj", "{534A2ED2-8949-4283-9708-9C69622B71D0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "泛型", "泛型\泛型.csproj", "{95A90D5D-28B9-40F2-B1AC-CE92EB58B002}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -25,6 +29,14 @@ Global
 		{E7AF3208-C576-4CF1-B517-0249CE01C1A4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E7AF3208-C576-4CF1-B517-0249CE01C1A4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E7AF3208-C576-4CF1-B517-0249CE01C1A4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{534A2ED2-8949-4283-9708-9C69622B71D0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{534A2ED2-8949-4283-9708-9C69622B71D0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{534A2ED2-8949-4283-9708-9C69622B71D0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{534A2ED2-8949-4283-9708-9C69622B71D0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{95A90D5D-28B9-40F2-B1AC-CE92EB58B002}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{95A90D5D-28B9-40F2-B1AC-CE92EB58B002}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{95A90D5D-28B9-40F2-B1AC-CE92EB58B002}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{95A90D5D-28B9-40F2-B1AC-CE92EB58B002}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

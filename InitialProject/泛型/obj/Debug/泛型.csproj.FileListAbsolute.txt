@@ -1,0 +1,6 @@
+C:\Code\StevenCode\InitialProject\泛型\bin\Debug\泛型.exe.config
+C:\Code\StevenCode\InitialProject\泛型\bin\Debug\泛型.exe
+C:\Code\StevenCode\InitialProject\泛型\bin\Debug\泛型.pdb
+C:\Code\StevenCode\InitialProject\泛型\obj\Debug\泛型.csprojResolveAssemblyReference.cache
+C:\Code\StevenCode\InitialProject\泛型\obj\Debug\泛型.exe
+C:\Code\StevenCode\InitialProject\泛型\obj\Debug\泛型.pdb
