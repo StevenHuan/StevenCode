@@ -1,0 +1,5 @@
+C:\Code\StevenCode\RoomReservation\MagicEightBallServiceLib\bin\Debug\MagicEightBallServiceLib.dll
+C:\Code\StevenCode\RoomReservation\MagicEightBallServiceLib\bin\Debug\MagicEightBallServiceLib.pdb
+C:\Code\StevenCode\RoomReservation\MagicEightBallServiceLib\obj\Debug\MagicEightBallServiceLib.csprojResolveAssemblyReference.cache
+C:\Code\StevenCode\RoomReservation\MagicEightBallServiceLib\obj\Debug\MagicEightBallServiceLib.dll
+C:\Code\StevenCode\RoomReservation\MagicEightBallServiceLib\obj\Debug\MagicEightBallServiceLib.pdb

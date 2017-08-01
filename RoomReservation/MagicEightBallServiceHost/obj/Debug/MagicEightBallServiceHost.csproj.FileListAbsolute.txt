@@ -1,0 +1,8 @@
+C:\Code\StevenCode\RoomReservation\MagicEightBallServiceHost\bin\Debug\MagicEightBallServiceHost.exe.config
+C:\Code\StevenCode\RoomReservation\MagicEightBallServiceHost\bin\Debug\MagicEightBallServiceHost.exe
+C:\Code\StevenCode\RoomReservation\MagicEightBallServiceHost\bin\Debug\MagicEightBallServiceHost.pdb
+C:\Code\StevenCode\RoomReservation\MagicEightBallServiceHost\bin\Debug\MagicEightBallServiceLib.dll
+C:\Code\StevenCode\RoomReservation\MagicEightBallServiceHost\bin\Debug\MagicEightBallServiceLib.pdb
+C:\Code\StevenCode\RoomReservation\MagicEightBallServiceHost\obj\Debug\MagicEightBallServiceHost.csprojResolveAssemblyReference.cache
+C:\Code\StevenCode\RoomReservation\MagicEightBallServiceHost\obj\Debug\MagicEightBallServiceHost.exe
+C:\Code\StevenCode\RoomReservation\MagicEightBallServiceHost\obj\Debug\MagicEightBallServiceHost.pdb

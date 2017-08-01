@@ -1,0 +1,5 @@
+C:\Code\StevenCode\Client\WCFClient\bin\Debug\WCFClient.exe.config
+C:\Code\StevenCode\Client\WCFClient\bin\Debug\WCFClient.exe
+C:\Code\StevenCode\Client\WCFClient\bin\Debug\WCFClient.pdb
+C:\Code\StevenCode\Client\WCFClient\obj\Debug\WCFClient.exe
+C:\Code\StevenCode\Client\WCFClient\obj\Debug\WCFClient.pdb
