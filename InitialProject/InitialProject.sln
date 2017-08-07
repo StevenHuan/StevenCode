@@ -11,6 +11,18 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "序列化和反序列化", 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "泛型", "泛型\泛型.csproj", "{95A90D5D-28B9-40F2-B1AC-CE92EB58B002}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "多态", "多态\多态.csproj", "{57442289-7A5E-4141-9069-127EDC0967D2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "数组", "数组\数组.csproj", "{2CBB0A3D-918D-480C-8ABA-510694FB6209}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "运算符", "运算符\运算符.csproj", "{F2CE005A-D5DF-4D3D-8EB4-C01E7B362646}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "委托Lambda表达式和事件", "委托Lambda表达式和事件\委托Lambda表达式和事件.csproj", "{28BCF632-572F-4B19-91C9-1FBFB54864CC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "集合", "集合\集合.csproj", "{AF4F9E55-D8D7-4AE4-9FAE-70057043E9B4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "计算器", "计算器\计算器.csproj", "{B460EB44-C86F-4C97-B4EA-2791EC0CC558}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -37,6 +49,30 @@ Global
 		{95A90D5D-28B9-40F2-B1AC-CE92EB58B002}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{95A90D5D-28B9-40F2-B1AC-CE92EB58B002}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{95A90D5D-28B9-40F2-B1AC-CE92EB58B002}.Release|Any CPU.Build.0 = Release|Any CPU
+		{57442289-7A5E-4141-9069-127EDC0967D2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{57442289-7A5E-4141-9069-127EDC0967D2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{57442289-7A5E-4141-9069-127EDC0967D2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{57442289-7A5E-4141-9069-127EDC0967D2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2CBB0A3D-918D-480C-8ABA-510694FB6209}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2CBB0A3D-918D-480C-8ABA-510694FB6209}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2CBB0A3D-918D-480C-8ABA-510694FB6209}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2CBB0A3D-918D-480C-8ABA-510694FB6209}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F2CE005A-D5DF-4D3D-8EB4-C01E7B362646}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F2CE005A-D5DF-4D3D-8EB4-C01E7B362646}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F2CE005A-D5DF-4D3D-8EB4-C01E7B362646}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F2CE005A-D5DF-4D3D-8EB4-C01E7B362646}.Release|Any CPU.Build.0 = Release|Any CPU
+		{28BCF632-572F-4B19-91C9-1FBFB54864CC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{28BCF632-572F-4B19-91C9-1FBFB54864CC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{28BCF632-572F-4B19-91C9-1FBFB54864CC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{28BCF632-572F-4B19-91C9-1FBFB54864CC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AF4F9E55-D8D7-4AE4-9FAE-70057043E9B4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AF4F9E55-D8D7-4AE4-9FAE-70057043E9B4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AF4F9E55-D8D7-4AE4-9FAE-70057043E9B4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AF4F9E55-D8D7-4AE4-9FAE-70057043E9B4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B460EB44-C86F-4C97-B4EA-2791EC0CC558}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B460EB44-C86F-4C97-B4EA-2791EC0CC558}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B460EB44-C86F-4C97-B4EA-2791EC0CC558}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B460EB44-C86F-4C97-B4EA-2791EC0CC558}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

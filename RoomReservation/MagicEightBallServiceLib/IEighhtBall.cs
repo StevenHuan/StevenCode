@@ -20,5 +20,23 @@ namespace MagicEightBallServiceLib
         /// <returns></returns>
         [OperationContract]
         string ObtainAnswerToQuestion(string userQuestion);
+
+        /// <summary>
+        /// 返回的是类
+        /// </summary>
+        /// <param name="login"></param>
+        /// <returns></returns>
+        [OperationContract]
+        User UserAll(string login);
+
+
+        /// <summary>
+        /// 传参和返回值都为泛型
+        /// </summary>
+        /// <typeparam name="T">返回值为泛型</typeparam>
+        /// <returns>返回Use</returns>
+        [OperationContract]
+        [ServiceKnownType(typeof(User))]
+        User GetUser(User login);
     }
 }

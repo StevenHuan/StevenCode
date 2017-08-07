@@ -67,6 +67,13 @@ namespace 泛型
             GenericConstraint.SayHi<UserLogin>(userLogin);
 
             GenericConstraint.Get2(user,a);
+            Console.WriteLine("****** 泛型返回 ******");
+            School school = new School();
+            Schoolssss schoolsss = school.GetAllT<Schoolssss>("李四",20);
+            Console.WriteLine("姓名:{0},年龄:{1}",schoolsss.Name,schoolsss.Age);
+            Console.WriteLine("*****泛型参数*****");
+            Schoolssss schoolsss1 = school.GetAllTByT<Schoolssss,string,int>("张三",10);
+            Console.WriteLine("姓名:{0},年龄:{1}", schoolsss1.Name, schoolsss1.Age);
             Console.ReadLine();
         }
     }

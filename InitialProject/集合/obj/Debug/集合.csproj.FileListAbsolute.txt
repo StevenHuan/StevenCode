@@ -1,0 +1,6 @@
+C:\Code\StevenCode\InitialProject\集合\bin\Debug\集合.exe.config
+C:\Code\StevenCode\InitialProject\集合\bin\Debug\集合.exe
+C:\Code\StevenCode\InitialProject\集合\bin\Debug\集合.pdb
+C:\Code\StevenCode\InitialProject\集合\obj\Debug\集合.exe
+C:\Code\StevenCode\InitialProject\集合\obj\Debug\集合.pdb
+C:\Code\StevenCode\InitialProject\集合\obj\Debug\集合.csprojResolveAssemblyReference.cache

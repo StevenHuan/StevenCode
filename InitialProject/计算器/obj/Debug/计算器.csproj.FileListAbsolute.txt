@@ -1,0 +1,6 @@
+C:\Code\StevenCode\InitialProject\计算器\bin\Debug\计算器.exe.config
+C:\Code\StevenCode\InitialProject\计算器\bin\Debug\计算器.exe
+C:\Code\StevenCode\InitialProject\计算器\bin\Debug\计算器.pdb
+C:\Code\StevenCode\InitialProject\计算器\obj\Debug\计算器.csprojResolveAssemblyReference.cache
+C:\Code\StevenCode\InitialProject\计算器\obj\Debug\计算器.exe
+C:\Code\StevenCode\InitialProject\计算器\obj\Debug\计算器.pdb

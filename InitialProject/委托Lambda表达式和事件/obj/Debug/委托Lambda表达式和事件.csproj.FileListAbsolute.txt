@@ -1,0 +1,6 @@
+C:\Code\StevenCode\InitialProject\委托Lambda表达式和事件\bin\Debug\委托Lambda表达式和事件.exe.config
+C:\Code\StevenCode\InitialProject\委托Lambda表达式和事件\bin\Debug\委托Lambda表达式和事件.exe
+C:\Code\StevenCode\InitialProject\委托Lambda表达式和事件\bin\Debug\委托Lambda表达式和事件.pdb
+C:\Code\StevenCode\InitialProject\委托Lambda表达式和事件\obj\Debug\委托Lambda表达式和事件.csprojResolveAssemblyReference.cache
+C:\Code\StevenCode\InitialProject\委托Lambda表达式和事件\obj\Debug\委托Lambda表达式和事件.exe
+C:\Code\StevenCode\InitialProject\委托Lambda表达式和事件\obj\Debug\委托Lambda表达式和事件.pdb

@@ -1,0 +1,6 @@
+C:\Code\StevenCode\InitialProject\数组\bin\Debug\数组.exe.config
+C:\Code\StevenCode\InitialProject\数组\obj\Debug\数组.csprojResolveAssemblyReference.cache
+C:\Code\StevenCode\InitialProject\数组\bin\Debug\数组.exe
+C:\Code\StevenCode\InitialProject\数组\bin\Debug\数组.pdb
+C:\Code\StevenCode\InitialProject\数组\obj\Debug\数组.exe
+C:\Code\StevenCode\InitialProject\数组\obj\Debug\数组.pdb

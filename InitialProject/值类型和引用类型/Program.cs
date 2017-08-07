@@ -14,7 +14,7 @@ namespace 值类型和引用类型
             //值类型直接存储其值，引用类型存储対值的引用
             //值类型存储在栈中，引用类型存储在托管堆上
             //C#中基本数据类型都是值类型，大多数复杂的数据类型包括类都是引用类型
-            //值类型：整数int,浮点:folat,double,高精度浮点decimal,布尔bool,字符char,结构struct,枚举emun
+            //值类型：整数int,浮点:folat,double,高精度浮点decimal,布尔bool,字符char,结构struct,枚举emun，所有的值类型都派生自System.ValueType
             //char类型可以隐式转换为ushort,int,uint,long,ulong,float,double,decimal,但是不存在从其他类型到char类型的隐式转换
 
             int a = 1;

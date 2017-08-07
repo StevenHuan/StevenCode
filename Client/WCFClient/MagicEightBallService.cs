@@ -8,18 +8,101 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
+namespace MagicEightBallServiceLib
+{
+    using System.Runtime.Serialization;
+
+
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Runtime.Serialization", "4.0.0.0")]
+    [System.Runtime.Serialization.DataContractAttribute(Name = "User", Namespace = "http://schemas.datacontract.org/2004/07/MagicEightBallServiceLib")]
+    public partial class User : object, System.Runtime.Serialization.IExtensibleDataObject
+    {
+
+        private System.Runtime.Serialization.ExtensionDataObject extensionDataField;
+
+        private int AgeField;
+
+        private string LoginField;
+
+        private string PwdField;
+
+        public System.Runtime.Serialization.ExtensionDataObject ExtensionData
+        {
+            get
+            {
+                return this.extensionDataField;
+            }
+            set
+            {
+                this.extensionDataField = value;
+            }
+        }
+
+        [System.Runtime.Serialization.DataMemberAttribute()]
+        public int Age
+        {
+            get
+            {
+                return this.AgeField;
+            }
+            set
+            {
+                this.AgeField = value;
+            }
+        }
+
+        [System.Runtime.Serialization.DataMemberAttribute()]
+        public string Login
+        {
+            get
+            {
+                return this.LoginField;
+            }
+            set
+            {
+                this.LoginField = value;
+            }
+        }
+
+        [System.Runtime.Serialization.DataMemberAttribute()]
+        public string Pwd
+        {
+            get
+            {
+                return this.PwdField;
+            }
+            set
+            {
+                this.PwdField = value;
+            }
+        }
+    }
+}
 
 
 [System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "4.0.0.0")]
-[System.ServiceModel.ServiceContractAttribute(ConfigurationName="IEighhtBall")]
+[System.ServiceModel.ServiceContractAttribute(ConfigurationName = "IEighhtBall")]
 public interface IEighhtBall
 {
-    
-    [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IEighhtBall/ObtainAnswerToQuestion", ReplyAction="http://tempuri.org/IEighhtBall/ObtainAnswerToQuestionResponse")]
+
+    [System.ServiceModel.OperationContractAttribute(Action = "http://tempuri.org/IEighhtBall/ObtainAnswerToQuestion", ReplyAction = "http://tempuri.org/IEighhtBall/ObtainAnswerToQuestionResponse")]
     string ObtainAnswerToQuestion(string userQuestion);
-    
-    [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IEighhtBall/ObtainAnswerToQuestion", ReplyAction="http://tempuri.org/IEighhtBall/ObtainAnswerToQuestionResponse")]
+
+    [System.ServiceModel.OperationContractAttribute(Action = "http://tempuri.org/IEighhtBall/ObtainAnswerToQuestion", ReplyAction = "http://tempuri.org/IEighhtBall/ObtainAnswerToQuestionResponse")]
     System.Threading.Tasks.Task<string> ObtainAnswerToQuestionAsync(string userQuestion);
+
+    [System.ServiceModel.OperationContractAttribute(Action = "http://tempuri.org/IEighhtBall/UserAll", ReplyAction = "http://tempuri.org/IEighhtBall/UserAllResponse")]
+    MagicEightBallServiceLib.User UserAll(string login);
+
+    [System.ServiceModel.OperationContractAttribute(Action = "http://tempuri.org/IEighhtBall/UserAll", ReplyAction = "http://tempuri.org/IEighhtBall/UserAllResponse")]
+    System.Threading.Tasks.Task<MagicEightBallServiceLib.User> UserAllAsync(string login);
+
+    [System.ServiceModel.OperationContractAttribute(Action = "http://tempuri.org/IEighhtBall/GetUser", ReplyAction = "http://tempuri.org/IEighhtBall/GetUserResponse")]
+    MagicEightBallServiceLib.User GetUser(MagicEightBallServiceLib.User login);
+
+    [System.ServiceModel.OperationContractAttribute(Action = "http://tempuri.org/IEighhtBall/GetUser", ReplyAction = "http://tempuri.org/IEighhtBall/GetUserResponse")]
+    System.Threading.Tasks.Task<MagicEightBallServiceLib.User> GetUserAsync(MagicEightBallServiceLib.User login);
 }
 
 [System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "4.0.0.0")]
@@ -31,38 +114,58 @@ public interface IEighhtBallChannel : IEighhtBall, System.ServiceModel.IClientCh
 [System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "4.0.0.0")]
 public partial class EighhtBallClient : System.ServiceModel.ClientBase<IEighhtBall>, IEighhtBall
 {
-    
+
     public EighhtBallClient()
     {
     }
-    
-    public EighhtBallClient(string endpointConfigurationName) : 
-            base(endpointConfigurationName)
+
+    public EighhtBallClient(string endpointConfigurationName) :
+        base(endpointConfigurationName)
     {
     }
-    
-    public EighhtBallClient(string endpointConfigurationName, string remoteAddress) : 
-            base(endpointConfigurationName, remoteAddress)
+
+    public EighhtBallClient(string endpointConfigurationName, string remoteAddress) :
+        base(endpointConfigurationName, remoteAddress)
     {
     }
-    
-    public EighhtBallClient(string endpointConfigurationName, System.ServiceModel.EndpointAddress remoteAddress) : 
-            base(endpointConfigurationName, remoteAddress)
+
+    public EighhtBallClient(string endpointConfigurationName, System.ServiceModel.EndpointAddress remoteAddress) :
+        base(endpointConfigurationName, remoteAddress)
     {
     }
-    
-    public EighhtBallClient(System.ServiceModel.Channels.Binding binding, System.ServiceModel.EndpointAddress remoteAddress) : 
-            base(binding, remoteAddress)
+
+    public EighhtBallClient(System.ServiceModel.Channels.Binding binding, System.ServiceModel.EndpointAddress remoteAddress) :
+        base(binding, remoteAddress)
     {
     }
-    
+
     public string ObtainAnswerToQuestion(string userQuestion)
     {
         return base.Channel.ObtainAnswerToQuestion(userQuestion);
     }
-    
+
     public System.Threading.Tasks.Task<string> ObtainAnswerToQuestionAsync(string userQuestion)
     {
         return base.Channel.ObtainAnswerToQuestionAsync(userQuestion);
+    }
+
+    public MagicEightBallServiceLib.User UserAll(string login)
+    {
+        return base.Channel.UserAll(login);
+    }
+
+    public System.Threading.Tasks.Task<MagicEightBallServiceLib.User> UserAllAsync(string login)
+    {
+        return base.Channel.UserAllAsync(login);
+    }
+
+    public MagicEightBallServiceLib.User GetUser(MagicEightBallServiceLib.User login)
+    {
+        return base.Channel.GetUser(login);
+    }
+
+    public System.Threading.Tasks.Task<MagicEightBallServiceLib.User> GetUserAsync(MagicEightBallServiceLib.User login)
+    {
+        return base.Channel.GetUserAsync(login);
     }
 }
