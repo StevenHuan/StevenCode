@@ -1,0 +1,6 @@
+C:\Code\StevenCode\InitialProject\ADO.NETFirst\bin\Debug\ADO.NETFirst.exe.config
+C:\Code\StevenCode\InitialProject\ADO.NETFirst\bin\Debug\ADO.NETFirst.exe
+C:\Code\StevenCode\InitialProject\ADO.NETFirst\bin\Debug\ADO.NETFirst.pdb
+C:\Code\StevenCode\InitialProject\ADO.NETFirst\obj\Debug\ADO.NETFirst.csprojResolveAssemblyReference.cache
+C:\Code\StevenCode\InitialProject\ADO.NETFirst\obj\Debug\ADO.NETFirst.exe
+C:\Code\StevenCode\InitialProject\ADO.NETFirst\obj\Debug\ADO.NETFirst.pdb

@@ -8,36 +8,99 @@ namespace 委托Lambda表达式和事件
 {
     class Program
     {
-        //声明一个委托类型
-        public delegate int DoubleOp(string message);
+        //1、定义委托
+        private delegate string GetAString();
+
+        /// <summary>
+        /// MathOperations的委托
+        /// </summary>
+        /// <returns></returns>
+        public delegate double DoubleOp(double operation);
 
         static void Main(string[] args)
         {
-            //委托：作用是将方法和变量一样作为参数传递，委托的典型应用是控件的事件处理方法
-            //定义委托基本是定义一个新类，所以可以再定义类的任何相同地方定义委托，常见的修饰符:public\private\protected
-            //委托实现为派生自基类System.MulticastDelegate的类
-            //在C#中，委托在语法上总是接受一个参数的构造函数，这个参数就是委托引用的方法
+            //委托：就是将方法当做参数传递给另一个方法，委托是一种特殊类型的对象，他的特殊在于我们之前定义的所有对象都包含数据，而委托包含的只是一个或多个方法的地址
+            //使用委托的步骤：1、定义委托 2、创建委托的一个或多个实例
+            //注意：他的每个实例都可以包含一个方法的引用，并且该方法返回类型和参数都必须和委托一致
+            //创建委托语法public delegate string IntMethidInvoker(int x);
+            //委托常见的访问修饰符:public 、private、protected
+            //委托实现为派生类System.MulticasDelegate，派生类又继承了System.Delegate
+            //委托可以理解为一个类，方法是他的字段，这个类有一个参数的构造函数，他具有类的大部分功能
 
-            //注意：委托定义的是什么，你传入的方法就应该怎么定义，
-            //委托的作用：没有委托就没有异步，异步是基于委托来的
-            //例如：定义一个返回值为int传入参数为string的委托DoubleOp，传入的参数MultSchool方法，返回值就应该是int，传入的参数应该是string
-            DoubleOp doubleOp = new DoubleOp(MultSchool);
-            //调用
-            doubleOp.Invoke("Hello");
-            //异步调用
-            doubleOp.BeginInvoke("World",null,null);
+            //2、实例化委托1
+            //委托实际相当于一个创建构造函数，不过他有点特殊，他是只接受一个参数的构造函数，并且这个参数的返回值可以通过这个实例化调用
+            GetAString getAstring = new GetAString(FirstStringMethod);
+            //注意：使用实例化的委托时加上括号
+            Console.WriteLine("使用委托得出来的值:{0}", getAstring.Invoke());
+            ////或者这样写
+            //GetAString getAString = FirstStringMethod;
+            //Console.WriteLine("{0}",getAString());
 
-            //解耦
-            MyDelegate mydelegate = new MyDelegate();
-            Geeeting gee = new Geeeting(mydelegate.GreetingChina);
-            mydelegate.GreetingHandel("老刘",gee);
-            Console.ReadLine();
+            Console.WriteLine("*******常见的委托*******");
+            MathOperations mathOperation = new MathOperations();
+            //实例化两个委托
+            DoubleOp[] operations = {  mathOperation.MultipyByTwo,
+                                        mathOperation.Squary
+                                    };
+
+            for (int i = 0; i < operations.Length; i++)
+            {
+                Console.WriteLine("******{0}******", i);
+                //将委托传入方法
+                ProcessAndDisplayNumber(operations[i], 2.0);
+                ProcessAndDisplayNumber(operations[i], 7.0);
+                ProcessAndDisplayNumber(operations[i], 1.414);
+            }
+
+            //泛型委托
+            //Action<T>表示引用一个void返回类型的方法，他可以传递至多16种不同的参数类型Action<int T1,int T8>
+            //Func<T>允许调用带返回类型的方法，Func<int T,out TResult>
+            //Func<T>,参数是double,返回值是double
+            Console.WriteLine("*******泛型委托参数是double,返回值是double*********");
+            Func<double, double>[] operationFunc = {  
+                                    mathOperation.MultipyByTwo,
+                                    mathOperation.Squary
+                                    };
+            for (int i = 0; i < operations.Length; i++)
+            {
+                Console.WriteLine("******{0}******", i);
+                //将委托传入方法
+                ProcessAndDisplayNumber(operations[i], 2.0);
+                ProcessAndDisplayNumber(operations[i], 7.0);
+                ProcessAndDisplayNumber(operations[i], 1.414);
+            }
+
+            Console.WriteLine("***********泛型委托参数是double,返回值是string*************");
+            //Func<T>参数是double,返回值是string
+            Func<double, string>[] operationString = { 
+                                               mathOperation.GetQuery
+                                                   };
+            Console.WriteLine("Value {0},result {1}", 10.0, operationString[0](10.0));
+
+            List<int> aaaa = new List<int> { 0, 5, 6, 2, 1 };
+            List<int> bbb = BubbleSorter.Sort(aaaa);
+            foreach (int item in bbb)
+            {
+                Console.WriteLine(item);
+            }
+            Console.ReadKey();
         }
 
-        public static int MultSchool(string Message)
+        public static string FirstStringMethod()
         {
-            Console.WriteLine("使用委托{0}",Message);
-            return 1;
+            return "Hello";
+        }
+
+        public static void ProcessAndDisplayNumber(DoubleOp action, double value)
+        {
+            double result = action(value);
+            Console.WriteLine("Value is {0}, result of operation is {1}", value, result);
+        }
+
+        public static void ProcessAndDisplayNumber(Func<double, double> action, double value)
+        {
+            double result = action(value);
+            Console.WriteLine("Value is {0}, result of operation is {1}", value, result);
         }
     }
 }

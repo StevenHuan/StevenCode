@@ -8,14 +8,19 @@ namespace 委托Lambda表达式和事件
 {
     public class MathOperations
     {
-        public static double MultiplyByTwo(double value)
+        public double MultipyByTwo(double value)
         {
             return value * 2;
         }
 
-        public static double Square(double value)
+        public double Squary(double value)
         {
             return value * value;
+        }
+
+        public string GetQuery(double value)
+        {
+            return "Hello" + value;
         }
     }
 }

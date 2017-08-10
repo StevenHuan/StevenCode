@@ -1,0 +1,6 @@
+C:\Code\StevenCode\InitialProject\事务\bin\Debug\事务.exe.config
+C:\Code\StevenCode\InitialProject\事务\bin\Debug\事务.exe
+C:\Code\StevenCode\InitialProject\事务\bin\Debug\事务.pdb
+C:\Code\StevenCode\InitialProject\事务\obj\Debug\事务.csprojResolveAssemblyReference.cache
+C:\Code\StevenCode\InitialProject\事务\obj\Debug\事务.exe
+C:\Code\StevenCode\InitialProject\事务\obj\Debug\事务.pdb

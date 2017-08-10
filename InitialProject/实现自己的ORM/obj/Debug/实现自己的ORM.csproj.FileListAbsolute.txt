@@ -1,0 +1,6 @@
+C:\Code\StevenCode\InitialProject\实现自己的ORM\bin\Debug\实现自己的ORM.exe.config
+C:\Code\StevenCode\InitialProject\实现自己的ORM\bin\Debug\实现自己的ORM.exe
+C:\Code\StevenCode\InitialProject\实现自己的ORM\bin\Debug\实现自己的ORM.pdb
+C:\Code\StevenCode\InitialProject\实现自己的ORM\obj\Debug\实现自己的ORM.csprojResolveAssemblyReference.cache
+C:\Code\StevenCode\InitialProject\实现自己的ORM\obj\Debug\实现自己的ORM.exe
+C:\Code\StevenCode\InitialProject\实现自己的ORM\obj\Debug\实现自己的ORM.pdb

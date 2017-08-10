@@ -1,0 +1,8 @@
+C:\Code\StevenCode\InitialProject\反射\bin\Debug\反射.exe.config
+C:\Code\StevenCode\InitialProject\反射\obj\Debug\反射.csprojResolveAssemblyReference.cache
+C:\Code\StevenCode\InitialProject\反射\bin\Debug\反射.exe
+C:\Code\StevenCode\InitialProject\反射\bin\Debug\反射.pdb
+C:\Code\StevenCode\InitialProject\反射\obj\Debug\反射.exe
+C:\Code\StevenCode\InitialProject\反射\obj\Debug\反射.pdb
+C:\Code\StevenCode\InitialProject\反射\bin\Debug\DasetModels.dll
+C:\Code\StevenCode\InitialProject\反射\bin\Debug\DasetModels.pdb

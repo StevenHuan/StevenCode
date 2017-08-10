@@ -1,0 +1,5 @@
+C:\Code\StevenCode\InitialProject\XML\bin\Debug\XML.exe.config
+C:\Code\StevenCode\InitialProject\XML\bin\Debug\XML.exe
+C:\Code\StevenCode\InitialProject\XML\bin\Debug\XML.pdb
+C:\Code\StevenCode\InitialProject\XML\obj\Debug\XML.exe
+C:\Code\StevenCode\InitialProject\XML\obj\Debug\XML.pdb

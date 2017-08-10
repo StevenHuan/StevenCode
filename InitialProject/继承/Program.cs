@@ -198,6 +198,29 @@ namespace 继承
             
         }
     }
+
+    public class Person
+    {
+        public string Name { get; set; }
+
+        public int Age { get; set; }
+
+        public Person()
+        { 
+        
+        }
+
+        public Person(string name)
+        {
+            this.Name = name;
+        }
+
+        public Person(string name, int age)
+            : this(name)
+        {
+            this.Age = age;
+        }
+    }
     #endregion
 
     #region 接口

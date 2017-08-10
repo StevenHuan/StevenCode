@@ -41,8 +41,9 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="BubbleSorter.cs" />
+    <Compile Include="Currenncy.cs" />
     <Compile Include="MathOperations.cs" />
-    <Compile Include="MyDelegate.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

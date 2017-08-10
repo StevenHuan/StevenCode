@@ -1,0 +1,5 @@
+C:\Code\StevenCode\InitialProject\ADO.NETEntityFramwork\bin\Debug\ADO.NETEntityFramwork.exe.config
+C:\Code\StevenCode\InitialProject\ADO.NETEntityFramwork\bin\Debug\ADO.NETEntityFramwork.exe
+C:\Code\StevenCode\InitialProject\ADO.NETEntityFramwork\bin\Debug\ADO.NETEntityFramwork.pdb
+C:\Code\StevenCode\InitialProject\ADO.NETEntityFramwork\obj\Debug\ADO.NETEntityFramwork.exe
+C:\Code\StevenCode\InitialProject\ADO.NETEntityFramwork\obj\Debug\ADO.NETEntityFramwork.pdb

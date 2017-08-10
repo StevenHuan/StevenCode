@@ -1,0 +1,4 @@
+C:\Code\StevenCode\InitialProject\DasetModels\bin\Debug\DasetModels.dll
+C:\Code\StevenCode\InitialProject\DasetModels\bin\Debug\DasetModels.pdb
+C:\Code\StevenCode\InitialProject\DasetModels\obj\Debug\DasetModels.dll
+C:\Code\StevenCode\InitialProject\DasetModels\obj\Debug\DasetModels.pdb
