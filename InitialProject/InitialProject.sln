@@ -39,6 +39,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ADO.NETEntityFramwork", "AD
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "实现自己的ORM", "实现自己的ORM\实现自己的ORM.csproj", "{860DFF01-1333-4BA2-8F94-EA1AF66D2E63}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "简单工程模式", "简单工程模式\简单工程模式.csproj", "{08FFE946-0FE6-4EAD-B129-DD24D8357929}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "程序设计原则", "程序设计原则\程序设计原则.csproj", "{E3E7C9CE-EFAF-4C8A-9E0E-9D7A79FD5AC8}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -121,6 +125,14 @@ Global
 		{860DFF01-1333-4BA2-8F94-EA1AF66D2E63}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{860DFF01-1333-4BA2-8F94-EA1AF66D2E63}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{860DFF01-1333-4BA2-8F94-EA1AF66D2E63}.Release|Any CPU.Build.0 = Release|Any CPU
+		{08FFE946-0FE6-4EAD-B129-DD24D8357929}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{08FFE946-0FE6-4EAD-B129-DD24D8357929}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{08FFE946-0FE6-4EAD-B129-DD24D8357929}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{08FFE946-0FE6-4EAD-B129-DD24D8357929}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E3E7C9CE-EFAF-4C8A-9E0E-9D7A79FD5AC8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E3E7C9CE-EFAF-4C8A-9E0E-9D7A79FD5AC8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E3E7C9CE-EFAF-4C8A-9E0E-9D7A79FD5AC8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E3E7C9CE-EFAF-4C8A-9E0E-9D7A79FD5AC8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

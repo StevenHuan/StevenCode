@@ -1,0 +1,6 @@
+C:\Code\StevenCode\InitialProject\程序设计原则\bin\Debug\程序设计原则.exe.config
+C:\Code\StevenCode\InitialProject\程序设计原则\bin\Debug\程序设计原则.exe
+C:\Code\StevenCode\InitialProject\程序设计原则\bin\Debug\程序设计原则.pdb
+C:\Code\StevenCode\InitialProject\程序设计原则\obj\Debug\程序设计原则.csprojResolveAssemblyReference.cache
+C:\Code\StevenCode\InitialProject\程序设计原则\obj\Debug\程序设计原则.exe
+C:\Code\StevenCode\InitialProject\程序设计原则\obj\Debug\程序设计原则.pdb

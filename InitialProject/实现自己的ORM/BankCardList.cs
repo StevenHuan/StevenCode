@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 
 namespace 实现自己的ORM
 {
+    [Serializable]
     [ORTableMapping("SC.BankCardList")]
     public class BankCardList
     {
@@ -45,4 +46,6 @@ namespace 实现自己的ORM
         [ORFieldMapping("ModifyTime")]
         public DateTime ModifyTime { get; set; }
     }
+
+   
 }

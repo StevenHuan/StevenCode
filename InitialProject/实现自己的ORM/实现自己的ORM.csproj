@@ -43,7 +43,6 @@
   <ItemGroup>
     <Compile Include="BankCardList.cs" />
     <Compile Include="BankCardListAdapter.cs" />
-    <Compile Include="DataFieldAttribute.cs" />
     <Compile Include="ORFieldMappingAttribute.cs" />
     <Compile Include="ORTableMappingAttribute.cs" />
     <Compile Include="Person.cs" />
