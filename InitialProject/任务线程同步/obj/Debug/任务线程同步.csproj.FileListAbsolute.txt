@@ -1,0 +1,5 @@
+C:\Code\StevenCode\InitialProject\任务线程同步\bin\Debug\任务线程同步.exe
+C:\Code\StevenCode\InitialProject\任务线程同步\bin\Debug\任务线程同步.pdb
+C:\Code\StevenCode\InitialProject\任务线程同步\obj\Debug\任务线程同步.csprojResolveAssemblyReference.cache
+C:\Code\StevenCode\InitialProject\任务线程同步\obj\Debug\任务线程同步.exe
+C:\Code\StevenCode\InitialProject\任务线程同步\obj\Debug\任务线程同步.pdb

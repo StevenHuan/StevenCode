@@ -1,0 +1,13 @@
+C:\Code\StevenCode\InitialProject\简单工程模式\bin\Debug\简单工程模式.exe.config
+C:\Code\StevenCode\InitialProject\简单工程模式\bin\Debug\简单工程模式.exe
+C:\Code\StevenCode\InitialProject\简单工程模式\bin\Debug\简单工程模式.pdb
+C:\Code\StevenCode\InitialProject\简单工程模式\bin\Debug\mscorlib.dll
+C:\Code\StevenCode\InitialProject\简单工程模式\bin\Debug\zh-Hans\mscorlib.resources.dll
+C:\Code\StevenCode\InitialProject\简单工程模式\bin\Debug\normidna.nlp
+C:\Code\StevenCode\InitialProject\简单工程模式\bin\Debug\normnfc.nlp
+C:\Code\StevenCode\InitialProject\简单工程模式\bin\Debug\normnfd.nlp
+C:\Code\StevenCode\InitialProject\简单工程模式\bin\Debug\normnfkc.nlp
+C:\Code\StevenCode\InitialProject\简单工程模式\bin\Debug\normnfkd.nlp
+C:\Code\StevenCode\InitialProject\简单工程模式\obj\Debug\简单工程模式.csprojResolveAssemblyReference.cache
+C:\Code\StevenCode\InitialProject\简单工程模式\obj\Debug\简单工程模式.exe
+C:\Code\StevenCode\InitialProject\简单工程模式\obj\Debug\简单工程模式.pdb

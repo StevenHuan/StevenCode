@@ -3,3 +3,4 @@ C:\Code\StevenCode\InitialProject\实验\bin\Debug\实验.exe
 C:\Code\StevenCode\InitialProject\实验\bin\Debug\实验.pdb
 C:\Code\StevenCode\InitialProject\实验\obj\Debug\实验.exe
 C:\Code\StevenCode\InitialProject\实验\obj\Debug\实验.pdb
+C:\Code\StevenCode\InitialProject\实验\obj\Debug\实验.csprojResolveAssemblyReference.cache

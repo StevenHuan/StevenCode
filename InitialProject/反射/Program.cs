@@ -12,6 +12,16 @@ namespace 反射
     {
         static void Main(string[] args)
         {
+            decimal de = 0.00M;
+            int inta = Convert.ToInt32(de);
+            Console.WriteLine(inta);
+            System.ComponentModel.NullableConverter nullableDateTime = new System.ComponentModel.NullableConverter(typeof(DateTime?));
+            /*
+            *正常日期格式字符串转换为DateTime?
+            */
+            string strDate = null;
+            DateTime? dt1 = (DateTime?)nullableDateTime.ConvertFromString(strDate);
+            Console.WriteLine(dt1);
             //这里是自定义特性和反射：自定义特性允许把自定义元数据与程序元素关联起来，这些元素都是在编译过程中创建的，并嵌入到程序集中；
 
             //反射:描述了在运行过程中检查和处理程序元素的功能,他可以完成以下任务:
@@ -80,8 +90,52 @@ namespace 反射
             Console.WriteLine("编号：{0},城市：{1},姓名：{2}",school.ID,school.Address,school.Name);
 
 
-            
+
+
+            Console.WriteLine("****************************************第二次学习反射************************************");
+            //.NET应用程序由几个部分组成：程序集(Assembly)，模块(Module)，类型(Class),而反射提供一种编程方式，可以让程序员在程序运行期间获得这几个组成不封的相关信息
+            //Assembly类可以获得正在运行的装配件信息，也可以动态的加载装配件，以及在装配件中查找类型信息，并创建该类型的实例。
+            //Type类可以获得对象的类型信息，此信息包含对象的所有要素：方法、构造器、属性等等，通过Type类可以得到这些要素的信息，并且调用之。
+            //MethodInfo包含方法的信息，通过这个类可以得到方法的名称、参数、返回值等，并且可以调用之。
+            //注意：装配件是.NET应用程序执行的最小单位，编译出来的.dll、.exe都是装配件，装配件和命名空间的关系不是一一对应的，也不是互相包含的，一个装配件里面可以有多个命名空间，一个命名空间可以在多个装配件中存在
+            //前方高能：为什么代码要放到运行期去做(晚绑定)？
+            //晚绑定能带来设计上的便利，合适的使用能够大大提高程序的复用性和灵活性，缺点就是性能上的损耗
+            //反射的作用：
+            //可以使用反射动态地创建类型实例，将类型绑定到现有对象，或从享有对象中获取类型
+            //应用程序需要在运行时从某个特定的程序集载入一个特性的类型，以便实现某个任务时可以用到反射
+            //反射主要应用于类型，这些类库需要知道一个类型的定义，以便提供更多的功能
+            //实现要点：
+            //现实应用程序中很少有应用程序需要使用反射类型，
+            //使用反射动态绑定需要牺牲性能
+            //有些元数据信息时不能通过反射获取
+            //某些反射类型是专门为哪些clr开发编译器的开发使用的，所以不是所有的反射类型都是适合每个人
+
+            //利用反射获取类型信息 
+            Assembly myAssembly = Assembly.LoadFrom("反射.exe");
+            GetReflectionInfo(myAssembly);
             Console.ReadKey();
+        }
+        /// <summary>
+        /// 定义一个获取反射内容的方法
+        /// </summary>
+        /// <param name="myAssembly">程序集</param>
+        public static void GetReflectionInfo(Assembly myAssembly)
+        {
+            //获取程序集类型
+            Type[] typeArr = myAssembly.GetTypes();
+            foreach (Type item in typeArr)
+            {
+                //获取类型的机构字段
+                ConstructorInfo[] myConstructors = item.GetConstructors();
+                //获取类型的字段信息
+                FieldInfo[] myFields = item.GetFields();
+                //获取方法信息
+                MethodInfo[] myMethodInfo = item.GetMethods();
+                //获取属性信息
+                PropertyInfo[] myPropertys = item.GetProperties();
+                //获取事件信息
+                EventInfo[] myEvents = item.GetEvents();
+            }
         }
     }
 }

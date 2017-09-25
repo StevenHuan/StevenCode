@@ -4,3 +4,10 @@ C:\Code\StevenCode\InitialProject\继承\bin\Debug\继承.exe
 C:\Code\StevenCode\InitialProject\继承\bin\Debug\继承.pdb
 C:\Code\StevenCode\InitialProject\继承\obj\Debug\继承.exe
 C:\Code\StevenCode\InitialProject\继承\obj\Debug\继承.pdb
+C:\Code\StevenCode\InitialProject\继承\bin\Debug\mscorlib.dll
+C:\Code\StevenCode\InitialProject\继承\bin\Debug\zh-Hans\mscorlib.resources.dll
+C:\Code\StevenCode\InitialProject\继承\bin\Debug\normidna.nlp
+C:\Code\StevenCode\InitialProject\继承\bin\Debug\normnfc.nlp
+C:\Code\StevenCode\InitialProject\继承\bin\Debug\normnfd.nlp
+C:\Code\StevenCode\InitialProject\继承\bin\Debug\normnfkc.nlp
+C:\Code\StevenCode\InitialProject\继承\bin\Debug\normnfkd.nlp

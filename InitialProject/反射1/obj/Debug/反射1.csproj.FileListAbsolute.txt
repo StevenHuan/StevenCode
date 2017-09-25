@@ -1,0 +1,5 @@
+C:\Code\StevenCode\InitialProject\反射1\bin\Debug\反射1.exe
+C:\Code\StevenCode\InitialProject\反射1\bin\Debug\反射1.pdb
+C:\Code\StevenCode\InitialProject\反射1\obj\Debug\反射1.exe
+C:\Code\StevenCode\InitialProject\反射1\obj\Debug\反射1.pdb
+C:\Code\StevenCode\InitialProject\反射1\obj\Debug\反射1.csprojResolveAssemblyReference.cache

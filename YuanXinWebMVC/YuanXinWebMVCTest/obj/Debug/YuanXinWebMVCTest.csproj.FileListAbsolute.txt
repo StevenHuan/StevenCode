@@ -1,0 +1,5 @@
+C:\Code\StevenCode\YuanXinWebMVC\YuanXinWebMVCTest\bin\Debug\YuanXinWebMVCTest.dll
+C:\Code\StevenCode\YuanXinWebMVC\YuanXinWebMVCTest\bin\Debug\YuanXinWebMVCTest.pdb
+C:\Code\StevenCode\YuanXinWebMVC\YuanXinWebMVCTest\obj\Debug\YuanXinWebMVCTest.csprojResolveAssemblyReference.cache
+C:\Code\StevenCode\YuanXinWebMVC\YuanXinWebMVCTest\obj\Debug\YuanXinWebMVCTest.dll
+C:\Code\StevenCode\YuanXinWebMVC\YuanXinWebMVCTest\obj\Debug\YuanXinWebMVCTest.pdb

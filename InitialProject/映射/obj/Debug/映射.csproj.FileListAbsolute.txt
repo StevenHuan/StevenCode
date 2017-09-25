@@ -1,0 +1,5 @@
+C:\Code\StevenCode\InitialProject\映射\bin\Debug\映射.exe
+C:\Code\StevenCode\InitialProject\映射\bin\Debug\映射.pdb
+C:\Code\StevenCode\InitialProject\映射\obj\Debug\映射.exe
+C:\Code\StevenCode\InitialProject\映射\obj\Debug\映射.pdb
+C:\Code\StevenCode\InitialProject\映射\obj\Debug\映射.csprojResolveAssemblyReference.cache
